@@ -109,11 +109,12 @@
             aspect-ratio: 3 / 4;
             border-radius: 12px;
             overflow: hidden;
-            background: var(--card);
+            background: transparent;
             /* 隨性旋轉角度 + 強烈的懸浮立體陰影 */
             transform: rotate(-3deg);
             box-shadow: 0 20px 45px rgba(16, 38, 95, 0.15), 0 5px 15px rgba(0, 0, 0, 0.05);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
+            background-color: transparent;
         }
         .hero .photo:hover {
             transform: rotate(0deg) scale(1.02);
